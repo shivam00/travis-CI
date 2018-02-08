@@ -10,3 +10,4 @@ cache:
   - e2e_tests
 script:
   - yarn test
+  - yarn start
