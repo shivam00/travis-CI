@@ -8,17 +8,17 @@ describe('index route', () => {
     app.server.close();
   });
 
-  test('should respond with a 200 with no query parameters', () => {
-    return request(app)
-      .get('/')
-      .expect('Content-Type', /html/)
-      .expect(200)
-      .then(response => {
-        expect(response.text).toMatch(
-          /<title>Express App Testing Demo<\/title>/
-        );
-      });
-  });
+  // test('should respond with a 200 with no query parameters', () => {
+  //   return request(app)
+  //     .get('/')
+  //     .expect('Content-Type', /html/)
+  //     .expect(200)
+  //     .then(response => {
+  //       expect(response.text).toMatch(
+  //         /<title>Express App Testing Demo<\/title>/
+  //       );
+  //     });
+  // });
 
   test('should respond with a 200 with valid query parameters', () => {
     return request(app)
