@@ -25,9 +25,6 @@ Note that this app only focuses on server-side JavaScript testing.
 * Run unit and integration tests: `npm test`
 * Run end-to-end tests: `npm run test:e2e`
 
-## Code Coverage Report
+## Live
 
-A new code coverage report is generated every time `npm test` runs.
-Normally this coverage report is ignored by git.
-This project includes it in source control so the coverage report can be viewed in the demo app:
-[http://express-app-testing-demo.herokuapp.com/coverage/lcov-report/index.html](http://express-app-testing-demo.herokuapp.com/coverage/lcov-report/index.html)
+https://testing-node-ap.herokuapp.com
