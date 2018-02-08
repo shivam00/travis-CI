@@ -1,0 +1,19 @@
+language: node_js
+node_js:
+  - 8.9.0
+notifications:
+  email: false
+cache:
+  directories:
+  - node_modules
+  - coverage
+  - e2e_tests
+script:
+  - yarn test
+# deploy:
+#   provider: pages
+#   skip_cleanup: true
+#   github_token: $github_token
+#   local_dir: build
+#   on:
+#     branch: master
