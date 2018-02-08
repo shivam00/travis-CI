@@ -6,14 +6,5 @@ notifications:
 cache:
   directories:
   - node_modules
-  - coverage
-  - e2e_tests
 script:
   - yarn test
-# deploy:
-#   provider: pages
-#   skip_cleanup: true
-#   github_token: $github_token
-#   local_dir: build
-#   on:
-#     branch: master
