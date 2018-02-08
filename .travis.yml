@@ -6,7 +6,5 @@ notifications:
 cache:
   directories:
   - node_modules
-  - coverage
-  - e2e_tests
 script:
   - yarn test
