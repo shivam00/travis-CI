@@ -11,7 +11,7 @@ Note that this app only focuses on server-side JavaScript testing.
 * Clone the repo
 * Install dependencies with `npm install`
 * Run server with `npm start` and go here:
-[http://localhost:3000/](http://localhost:3000/)
+[http://localhost:3000](http://localhost:3000)
 
 ## Running Tests
 
