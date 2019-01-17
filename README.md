@@ -7,7 +7,6 @@ Jest is also used for mocking functions and measuring code coverage.
 Note that this app only focuses on server-side JavaScript testing.
 
 ## Getting Started
-
 * Clone the repo
 * Install dependencies with `npm install`
 * Run server with `npm start` and go here:
