@@ -17,5 +17,4 @@ Note that this app only focuses on server-side JavaScript testing.
 * Run end-to-end tests: `npm run test:e2e`
 
 ## Live
-
 https://testing-node-ap.herokuapp.com
